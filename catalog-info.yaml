@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "TestDocumentation"
+  description: "Test"
+  annotations:
+    github.com/project-slug: swetalinasahoo01/backstage01
+    backstage.io/techdocs-ref: url:https://github.com/swetalinasahoo01/backstage01
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "swetalinasahoo01"
